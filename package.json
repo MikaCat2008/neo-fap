@@ -1,14 +1,18 @@
 {
-  "name": "${PROJECT_NAME}",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "name": "neo-fap",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "build": "tsc"
+    "build:debug": "npx tsx build.ts --debug",
+    "build:release": "npx tsx build.ts"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@types/node": "^26.6.3",
+    "@types/ws": "^8.18.1",
+    "esbuild": "^0.28.2",
+    "ws": "^8.22.0"
   },
-  "private": true
+  "dependencies": {
+    "jsx-dom": "^8.1.6"
+  }
 }

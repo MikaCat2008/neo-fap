@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "neofap",
+  "name": "neo-fap",
   "version": "1.0",
   "description": "new first-apes-cheat",
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "https://apes.io/test"
       ],
       "js": [
         "index.js"

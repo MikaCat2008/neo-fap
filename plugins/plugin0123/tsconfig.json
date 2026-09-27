@@ -17,6 +17,6 @@
   },
   "include": [
     "src",
-    "plugins/neo-fap-core.d.ts"
+    "../neo-fap-core.d.ts"
   ]
 }
